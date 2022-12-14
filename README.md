@@ -1,16 +1,15 @@
-# bottom_navigation_bar
+# Flutter Bottom Navigation Bar 
 
-20 Different Bottom Navigation Bar Design with Screens
+Great bottom navigation bar that present navigation in modern applications. ⭐️👾 
 
-## Getting Started
+![](https://github.com/HasibeZaferr/Flutter-Bottom-Navigation-Bar/blob/master/assets/cover/cover.gif)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Design & Packages
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+I chose to make this design available for free on Figma. 
+- [Figma Design ]([https://www.figma.com/file/ZMqvetZEg5sOuK51PKMpNE/Onboarding-(Community)?node-id=0%3A1&t=9pbWADTTMXAKxrWh-0](https://www.figma.com/community/file/1184891184824394184))
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I use introduction_screen packages
+- [persistent_bottom_nav_bar](https://pub.dev/packages/persistent_bottom_nav_bar)
+- [You can access the detailed article on my medium account.](https://medium.com/@hasibezafer/flutter-bottom-navigation-bar-with-20-different-designs-9b19fa2a6801)

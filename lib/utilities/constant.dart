@@ -1,8 +1,8 @@
 
 import 'dart:ui';
 
-const double bottomNavigationBarHeight= 60.0;
-const double bottomNavigationBarIconHeight= 25.0;
+const double kSizeBottomNavigationBarHeight= 70.0;
+const double kSizeBottomNavigationBarIconHeight= 22.0;
 
 //Colors
 const Color kColorBNBActiveTitleColor = Color.fromARGB(255, 66, 66, 66);

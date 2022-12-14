@@ -29,7 +29,7 @@ class _MainScreenState extends State<MainScreen> {
       body: PersistentTabView(
         context,
         controller: _controller,
-        navBarHeight: 60,
+        navBarHeight: kSizeBottomNavigationBarHeight,
         screens: _buildScreens(),
         items: _navBarsItems(),
         confineInSafeArea: true,
@@ -49,7 +49,7 @@ class _MainScreenState extends State<MainScreen> {
           curve: Curves.ease,
           duration: Duration(milliseconds: 200),
         ),
-        navBarStyle: NavBarStyle.style1,
+        navBarStyle: NavBarStyle.style2,
         onItemSelected: (final index) {
           setState(() {
             _controller?.index = index; // THIS IS CRITICAL!! Don't miss it!
@@ -76,7 +76,7 @@ class _MainScreenState extends State<MainScreen> {
         icon: Column(
           children: [
             SizedBox(
-              height: 25,
+              height: kSizeBottomNavigationBarIconHeight,
               child: Image.asset(
                 kIconPathBottomNavigationBarHome,
               ),
@@ -86,7 +86,7 @@ class _MainScreenState extends State<MainScreen> {
         inactiveIcon: Column(
           children: [
             SizedBox(
-              height: 25,
+              height: kSizeBottomNavigationBarIconHeight,
               child: Image.asset(
                 kIconPathBottomNavigationBarHomeDeactive,
               ),
@@ -101,7 +101,7 @@ class _MainScreenState extends State<MainScreen> {
         icon: Column(
           children: [
             SizedBox(
-              height: 25,
+              height: kSizeBottomNavigationBarIconHeight,
               child: Image.asset(
                 kIconPathBottomNavigationBarAnimals,
               ),
@@ -111,7 +111,7 @@ class _MainScreenState extends State<MainScreen> {
         inactiveIcon: Column(
           children: [
             SizedBox(
-              height: 25,
+              height: kSizeBottomNavigationBarIconHeight,
               child: Image.asset(
                 kIconPathBottomNavigationBarAnimalsDeactive,
               ),
@@ -126,7 +126,7 @@ class _MainScreenState extends State<MainScreen> {
         icon: Column(
           children: [
             SizedBox(
-              height: 25,
+              height: kSizeBottomNavigationBarIconHeight,
               child: Image.asset(
                 kIconPathBottomNavigationBarPlants,
               ),
@@ -136,7 +136,7 @@ class _MainScreenState extends State<MainScreen> {
         inactiveIcon: Column(
           children: [
             SizedBox(
-              height: 25,
+              height: kSizeBottomNavigationBarIconHeight,
               child: Image.asset(
                 kIconPathBottomNavigationBarPlantsDeactive,
               ),
@@ -151,7 +151,7 @@ class _MainScreenState extends State<MainScreen> {
         icon: Column(
           children: [
             SizedBox(
-              height: 25,
+              height: kSizeBottomNavigationBarIconHeight,
               child: Image.asset(
                 kIconPathBottomNavigationBarProfile,
               ),
@@ -161,7 +161,7 @@ class _MainScreenState extends State<MainScreen> {
         inactiveIcon: Column(
           children: [
             SizedBox(
-              height: 25,
+              height: kSizeBottomNavigationBarIconHeight,
               child: Image.asset(
                 kIconPathBottomNavigationBarProfileDeactive,
               ),

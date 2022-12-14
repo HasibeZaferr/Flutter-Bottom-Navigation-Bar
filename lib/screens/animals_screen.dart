@@ -25,7 +25,7 @@ class AnimalsScreen extends StatelessWidget {
                 height: 100.0),
             SizedBox(height: 50.0),
             Text(
-              'My Sweet Home',
+              'My Sweet Animals',
               style: TextStyle(fontSize: 24),
             ),
           ],

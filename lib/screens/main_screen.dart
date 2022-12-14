@@ -33,7 +33,7 @@ class _MainScreenState extends State<MainScreen> {
         screens: _buildScreens(),
         items: _navBarsItems(),
         confineInSafeArea: true,
-        backgroundColor: Colors.white,
+        backgroundColor: kColorBNBBackground,
         handleAndroidBackButtonPress: true,
         resizeToAvoidBottomInset: true,
         stateManagement: true,
@@ -49,7 +49,7 @@ class _MainScreenState extends State<MainScreen> {
           curve: Curves.ease,
           duration: Duration(milliseconds: 200),
         ),
-        navBarStyle: NavBarStyle.style2,
+        navBarStyle: NavBarStyle.style19,
         onItemSelected: (final index) {
           setState(() {
             _controller?.index = index; // THIS IS CRITICAL!! Don't miss it!

@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+//Sizes
 const double kSizeBottomNavigationBarHeight = 70.0;
 const double kSizeBottomNavigationBarIconHeight = 30.0;
 
